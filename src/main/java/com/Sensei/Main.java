@@ -13,7 +13,13 @@ import java.util.Scanner;
 
 
 public class Main {
-
+    static boolean hadError=false;
+    private static void error(int line, String message){
+        report(line,"",message);
+    }
+    private static void report(int line,String where, String message){
+        System.out.println("\u001B[91m"+"\u001B[1m"+"[line " + line + "] Error" + where + ": " + message+"\u001B[0m");
+    }
     private static void run(String source){
         Scanner scanner=new Scanner(source);
         List<Token> tokens=new ArrayList<Token>();
@@ -24,6 +30,7 @@ public class Main {
     private static void runFile(String path)throws IOException {
         byte[] bytes= Files.readAllBytes(Paths.get(path));
         run(new String(bytes, Charset.defaultCharset()));
+        if(hadError)System.exit(1);
     }
     private static void runREPL() throws IOException{
          String green = "\u001B[92m";
@@ -49,6 +56,7 @@ public class Main {
                 break;
             }
             run(line);
+            hadError=false;
 
         }
 
