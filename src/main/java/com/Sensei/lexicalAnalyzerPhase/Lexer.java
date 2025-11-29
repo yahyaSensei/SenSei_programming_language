@@ -136,7 +136,7 @@ public class Lexer {
                 if(Character.isDigit(c)){
                     tokenizeDigit();
                 }else if(Character.isLetter(c)){
-
+                    tokenizeIdentifier();
                 }
                 else{Main.error(line,"Unexpected character.");}
         }
