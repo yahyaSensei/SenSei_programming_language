@@ -5,7 +5,7 @@
 
 ## ⛩️ The Philosophy (فلسفة المشروع)
 
-In a world full of noise, glitches, and entropy, **Sensei** is an attempt to find structure. Inspired by the crafting of interpreters and the discipline of martial arts, this language aims to be a guide—a _Teacher_—that transforms raw, chaotic text into meaningful actions.
+In a reality obscured by entropy and noise, Sensei is a return to Principles. **It is built on the realization that 'The water takes the color of its cup If the logic is flawed, the reality becomes distorted.** Bridging the architecture of Interpreters with the discipline of Rigor of formal logic, this language acts as a Guide. It parses the chaotic text of existence, filtering out the noise of illusion to compile a code of pure, executable Truth.
 
 Just like a **Lexer** slices through a stream of characters to find meaning, we slice through the complexities of life to find our path.
 
