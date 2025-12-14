@@ -59,7 +59,7 @@ Sensei comes with an interactive Read-Eval-Print Loop (REPL) with a custom inter
 1. **Clone the repository:**
 
     ```
-    git clone [https://github.com/YourUsername/Sensei.git](https://github.com/YourUsername/Sensei.git)
+    git clone [https://github.com/yahyaSensei/SenSei_programming_language.git](https://github.com/yahyaSensei/SenSei_programming_language.git)
     ```
 
 2. **Navigate to the source:**
